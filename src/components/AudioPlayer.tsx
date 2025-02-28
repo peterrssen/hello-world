@@ -51,7 +51,7 @@ const AudioPlayer = () => {
         if (currentTackIndex + 1 < trackList.length) {
             setCurrentTrack(trackList[currentTackIndex + 1]);
         } else {
-            setIsPlaying(false);
+            setCurrentTrack(trackList[0])
         }
     };
 
@@ -59,6 +59,8 @@ const AudioPlayer = () => {
         const currentTackIndex = getTrackIndex(currentTrack);
         if (currentTackIndex - 1 >= 0) {
             setCurrentTrack(trackList[currentTackIndex - 1]);
+        } else {
+            setCurrentTrack(trackList[trackList.length - 1])
         }
     }
 
