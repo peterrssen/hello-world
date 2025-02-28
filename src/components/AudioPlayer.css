@@ -1,26 +1,31 @@
 .audio-player-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 100%;
     max-width: 500px;
+    min-width: 320px;
     background: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 0px;
     overflow: hidden;
-    min-width: 320px;
-    justify-content: center;
     padding: 5px;
 }
+
 
 .player {
     display: flex;
 }
 
 .playlist-container {
+    flex: 1;
+    overflow-y: auto;
+    min-height: 300px;
     padding-top: 18px;
 }
 
 .cover {
+
     display: flex;
     width: 120px;
     height: 120px;

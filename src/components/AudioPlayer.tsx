@@ -6,11 +6,6 @@ import AudioControls from './AudioControls';
 import Playlist from './Playlist';
 import { Track, tracks } from './Tracks';
 import ConfettiExplosion from 'react-confetti-explosion';
-import { a } from 'framer-motion/dist/types.d-6pKw1mTI';
-
-const getRandomColor = (colors: string | any[]) => {
-    return colors[Math.floor(Math.random() * colors.length)];
-};
 
 
 const AudioPlayer = () => {
