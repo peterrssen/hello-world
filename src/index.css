@@ -3,17 +3,3 @@ body {
     margin: 0;
     padding: 0;
 }
-
-
-.app-container {
-    display: flex;
-    background-color: red;
-    /*background-image: url("./assets/background.webp");*/
-    background-size: cover;
-    /* Skaliert das Bild, um den gesamten Bildschirm zu füllen */
-    background-position: center;
-    justify-content: center;
-    max-width: 500px;
-    min-width: 320px;
-    width: 100%;
-}

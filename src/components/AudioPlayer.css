@@ -8,8 +8,8 @@
     background: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 0px;
-    overflow: hidden;
     padding: 5px;
+    overflow: hidden;
 }
 
 
@@ -22,6 +22,7 @@
     overflow-y: auto;
     min-height: 300px;
     padding-top: 18px;
+    max-height: 500px;
 }
 
 .cover {
@@ -41,15 +42,6 @@
 }
 
 .current-track-title {
-    /*
-    background: linear-gradient(90deg,
-            #BB444A, #779D64, #39538A, #53435F, #F5AF5A,
-            #BB444A, #779D64, #39538A, #53435F, #F5AF5A,
-            #BB444A, #779D64, #39538A, #53435F, #F5AF5A);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    */
     font-size: 1.8em;
     font-weight: bold;
 }
